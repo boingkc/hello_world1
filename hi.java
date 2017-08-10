@@ -21,7 +21,15 @@ class Home{
 
 
   }
-  
+  public addComponent(Component componentObj){
+    component.add(componentObj);
+
+  }
+  @override
+  public toString(){
+    system.out.println(component.toString());
+  }
+
 
 
 }
